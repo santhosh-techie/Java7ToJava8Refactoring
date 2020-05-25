@@ -1,4 +1,0 @@
-Java 8 is a major feature release of Java Programming Language. This project will explains the basic features of how to refactor some parts
-of Java 7 code with Java 8 lambda expressions and Stream API.
-
-This project is having independent classes they are tested in my local computer and you can clone the project an run those examples on your local computer.
