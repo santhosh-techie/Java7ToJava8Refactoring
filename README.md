@@ -9,8 +9,8 @@ examples on your local computer. To run the examples in this project you need Ja
 
 Take a few minutes to download the appropriate version of Java for your system. This will help you follow along with the examples in this project. 
 
-The Oracle website for downloading the version of Java used in this project is [Java 8]https://jdk8.java.net/download.html.
- The JDK documentation is available at [Java 8 Docs]http://download.java.net/jdk8/docs/api.
+The Oracle website for downloading the version of Java used in this project is [Java 8](https://jdk8.java.net/download.html)
+ The JDK documentation is available at [Java 8 Docs](http://download.java.net/jdk8/docs/api)
 
 # Lambda Expressions
 
@@ -102,9 +102,9 @@ Rather than tell Java to create a mutable variable and then to repeatedly assign
 
 ```Java
 	final BigDecimal totalOfDiscountedPrces = prices.stream()
-													.filter(price -> price.compareTo(BigDecimal.valueOf(20)) > 0)
-													.map(price -> price.multiply(BigDecimal.valueOf(0.9)))
-													.reduce(BigDecimal.ZERO, BigDecimal::add);
+				.filter(price -> price.compareTo(BigDecimal.valueOf(20)) > 0)
+				.map(price -> price.multiply(BigDecimal.valueOf(0.9)))
+				.reduce(BigDecimal.ZERO, BigDecimal::add);
 	
 	System.out.println("Total of discounted prices: " + totalOfDiscountedPrices);												
 ```
