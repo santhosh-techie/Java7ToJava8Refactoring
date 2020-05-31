@@ -117,6 +117,14 @@ The code is concise, but we are using quite a number of new things from Java 8.
 * We invoked the `reduce()` method to compute the total on the result of the `map()` method.
 
 Here’s the output from this version of code: `Total of discounted prices: 67.5`.
+
+# Gains of Functional-Style of Coding
+
+* Functional style code has a higher signal-to-noise ratio. We write fewer lines of code but each line or expressions achieves more.
+* We avoid explicit mutation or reassignment of variables. Which are often source of bugs and results in a code.
+* The code is more expressive. Rather than conveying the intent in multiple steps.
+* With the support for lambda expressions, we can fully utilize the power of the functional style of programming in Java.
+  If we embrace this style, we can create more expressive, more concise code with less mutability and fewer errors. 
   
 
 
